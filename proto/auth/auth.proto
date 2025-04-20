@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "krylov.auth.v1;authv1";
+option go_package = "krylov.auth.v3;auth";
 
 service Auth{
     rpc Register (RegisterRequest) returns (RegisterResponse);
