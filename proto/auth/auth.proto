@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "github.com/greygn/protos/gen/go/auth/v4;auth";
+option go_package = "greygn.forum-api.v1;authv1";
 
 service Auth{
     rpc Register (RegisterRequest) returns (RegisterResponse);
